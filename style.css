@@ -11,6 +11,7 @@ body
     background-color: rgb(99, 193, 129);
     height: auto;
     border: 1px solid transparent;
+    padding-bottom: 50px;
   }
 .main_container_taskbar {   
     position: sticky;
@@ -24,8 +25,8 @@ body
 
     background-color: rgb(110, 236, 236);
     border-radius: 15px;
-
-    
+    z-index: 1000;
+   
       
 }
 .righttags{
@@ -47,6 +48,52 @@ body
     background-color: red;
     border-radius: 50%;
     cursor: pointer;
+}
+.about_container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(211, 115, 70);
+    margin: 3px;
+    align-items: center;
+}
+.framecontainer{
+    width: auto;
+    height: auto;
+}
+.rectangleFrame{
+    width: 400px;
+    height: 490px;
+    background-color: white;
+    border: 2px solid black;
+    margin-left: 100px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    margin-right: 40px;
+    transform: rotate(-5deg);
+}
+.imageFrame{
+    width: 350px;
+    height: 340px;
+    background-color: rgb(67, 127, 237);
+    margin: 25px;
+    border: 2px solid black;    
+}
+.imageFrame:hover{
+    cursor: pointer;
+}
+.Signiture{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: black;
+}
+.about_me{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: black;
+
 }
 
 
