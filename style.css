@@ -8,7 +8,7 @@ body
 }
 .main_container{
     background-color: rgb(99, 193, 129);
-    height: 100vh;
+    height: auto;
     overflow: hidden;   
 }
 .main_container_taskbar {   
@@ -20,6 +20,7 @@ body
     align-items: center; 
     border-radius: 15px;
     margin: 15px;
+    
       
 }
 .righttags{
