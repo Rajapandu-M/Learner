@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body
 {
@@ -50,16 +51,22 @@ body
     cursor: pointer;
 }
 .about_container{
-    height: 100vh;
+    height: auto;
+    padding: 50px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: rgb(211, 115, 70);
     margin: 3px;
     align-items: center;
+    
+    
+   
 }
 .framecontainer{
     width: auto;
     height: auto;
+    background-color: rgb(51, 60, 78);
+    flex-shrink:350px;
 }
 .rectangleFrame{
     width: 400px;
@@ -69,11 +76,12 @@ body
     margin-left: 100px;
     margin-top: 130px;
     margin-bottom: 130px;
-    margin-right: 40px;
+    margin-right: 100px;
     transform: rotate(-5deg);
+    
 }
 .imageFrame{
-    width: 350px;
+    width: auto;
     height: 340px;
     background-color: rgb(67, 127, 237);
     margin: 25px;
@@ -88,13 +96,21 @@ body
     font-size: 30px;
     color: black;
 }
+.about_me_container{
+    
+    background-color: rgb(74, 189, 251);
+    
+}
 .about_me{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
     color: black;
+    background-color: rgb(55, 236, 82);
+    padding: 30px;
 
 }
+
 
 
 
