@@ -98,8 +98,8 @@ body
     font-size: 30px;
     color: black;
 }
-.about_me_container{    
-    flex: 1;
+.about_me_container{  
+      
     background-color: rgb(74, 189, 251);
     
 }
@@ -119,10 +119,10 @@ body
     } */
 
 .Skills_container{
-    height: auto;
-    padding: 50px;
+    height: 900px;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     background-color: rgb(211, 115, 70);
     margin: 3px;
     align-items: center;
@@ -131,6 +131,7 @@ body
     width: 350px;
     height: auto;
     padding: 25px;
+    flex-shrink: 0;
     background-color: rgb(255, 255, 255);
     margin: 25px;
     border-radius: 25px;
