@@ -64,7 +64,7 @@ body
    
 }
 .framecontainer{
-    width: 400px;
+    width: auto;
     height: auto;
     background-color: rgb(51, 60, 78);
     flex-shrink:350px;
@@ -75,11 +75,11 @@ body
     height: 490px;
     background-color: white;
     border: 2px solid black;
-        /* margin-left: 100px;
+        margin-left: 100px;
         margin-top: 130px;
         margin-bottom: 130px;
-        margin-right: 100px; */
-    transform: rotate(-5deg);
+        margin-right: 100px;
+    transform: rotate(-6deg);
     
 }
 .imageFrame{
@@ -112,28 +112,58 @@ body
     padding: 30px;
 
 }
-@media (max-width:700px){
+/* @media (max-width:900px){
     .about_container{
         flex-direction: column;
     }
-    /* .framecontainer{
-        width: 100%;
-        height: auto;
-        margin-right: 0px;
+    } */
+
+.Skills_container{
+    height: auto;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(211, 115, 70);
+    margin: 3px;
+    align-items: center;
+}
+.cards{
+    width: 350px;
+    height: auto;
+    padding: 25px;
+    background-color: rgb(255, 255, 255);
+    margin: 25px;
+    border-radius: 25px;
+    border: 2px solid black; 
+    align-items: center;   
+}
+.skill_image{
+    width: auto;
+    height: 350px;
+    background-color: rgb(69, 125, 229);
+}
+.Skill_discription{
+    background-color: rgb(126, 185, 178);
+    text-align: center;
+    padding: 5px;
+    
+}
+/* .Skill_discription p{
+    margin: 5px;
+    display: none;
+}
+.cards:hover p{
+    display: block;
+} */
+ .skill_discription_para{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+ }
+ .cards:hover .skill_discription_para{
+    max-height: 200px;    
     }
-    .rectangleFrame{
-        width: 100%;
-        height: auto;
-        margin: 25px 0px;
-    }
-    .imageFrame{
-        width: 100%;
-        height: auto;
-    }
-    .about_me_container{
-        width: 100%;
-        height: auto; */
-    }
+
 
 
 
